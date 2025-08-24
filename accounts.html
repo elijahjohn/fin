@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accounts Manager</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Accounts</h1>
+    <form id="accountForm">
+      <input type="text" id="name" placeholder="Account name" required />
+      <select id="currency">
+        <option value="THB">THB</option>
+        <option value="PHP">PHP</option>
+      </select>
+      <select id="type">
+        <option value="debit">Debit</option>
+        <option value="credit">Credit</option>
+      </select>
+      <button type="submit">Add</button>
+    </form>
+
+    <div id="accountsList" class="list"></div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
