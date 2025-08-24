@@ -21,3 +21,4 @@ A lightweight, offline-first personal finance tracker you can host for free (Git
 - Install as an app (tap **Install** in top bar).
 - Data is saved locally; use Export/Import for backups.
 # fin
+# fin
